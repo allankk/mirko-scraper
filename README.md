@@ -1,6 +1,12 @@
 # MIRKO SCRAPER
 
-Update bookId (url), hostCsrfToken (cookie) and secureSessionToken (cookie) values in app.js.
+Update the following values in app.js.
+
+```
+bookId (url)
+hostCsrfToken (cookie)
+secureSessionToken (cookie)
+```
 
 run with `node app.js`
 
