@@ -1,9 +1,11 @@
-# MIRKO SCRAPER
+# Mirko scraper
+
+Convert mirko books to ePub
 
 Update the following values in app.js.
 
 ```
-bookId (url)
+bookId (url slug)
 hostCsrfToken (cookie)
 secureSessionToken (cookie)
 ```

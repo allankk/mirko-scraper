@@ -6,9 +6,9 @@ const Epub = require("epub-gen");
 
 (async () => {
     try {
-        var bookId = "1eef5630-2eb6-ee11-bea0-000d3a2b6a8c";
-        var hostCsrfToken = "6a8b46b2d53ff8b49ebc07670287c15181bb9d21b03349334e067e5a3b1f706d%7C6fec7f7e875bba3638524a28b039f081817324d3f17b4bd0a6324e599b57ee3b";
-        var secureSessionToken = "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..PYZq4wl1tMi5Meqz.2grmNcCj6jGdR3ojdxqLDCG_bySfTFwPa8TurIe1Qj-qzVTKtqmLShScCb1mwpF1bQK721qgN--PSrEFwflvYVyV2OWvRgksz5NcAkoBHPelNaHyQeviKoKLXqLSlCcAi1BLqsrM3O21U-AMzWZPmbqctjoIp9YFqEtwwDgLr_8oi1iLi1txr-JH4PtLjLRYF7j7Qu5vc5pTj7DN1J6oY86Ma_YAXeXM-kmRWXaqW7vluawwXS_3TBhCAN9mAtehO2s-AWQFgyMipSHtpfjAV4ILny5Tz1eUkCW6Ils5Wke-QKpK0-suk-CWzESWoP_rgfaeXUc0ixgeyiva-yWGpI4VopDGq2C8-oZ7TLNlPnP9oKNqINpShJBJwsZrBH6Z3ic6NYVdtFIJi6Gog5-TZW_BfB2beEaaj5vKiqxicPM4HWJQKPOMuBjSvWAnGOA3MKC90GdIaVrhjOz_C8poLJ42x72v5nQmkHaFZIFAY9Tj3Ukm0MmvsfN4qAArcWMqnwQ62L3aXEt7Daih_n7G-XHErlQPHJ1YeIz5bIoWPd48dRqCbKICQA3roLzMDM8vjZs0su5JJ4_fbqfUJeQJVE7k_NGmhRoNyspsMp6S90pdc6MrTyw6sPyaiEUZjLWqME4FLubTJI3AwdhLzr25VWCSO7BuPrRBs5gqM1KNUER3nASBxEn3f13cAkJyoQ3lApGtJJti8Y6BDOciTqm8MBUlGze8mLLaudI6EAQNb2YrKUv5J1jvLWAQyq8HmeWdf2u2rPK_QWB446nLQAX4WASAQ8aQdPUn09Jg4hgOPSKAD7tME4pLXkTta-jvHEo9owWe2V8G1Lvxbi6VZUCyqV5RZmLUoD4aBARYC5LN6yuf0yubRZrwbiD80IbxZh6SyX_cbOvYute3188xTOlD_0AZDEVV_N--AA1dQR_IFNExWzdeQeWIebyUJaPKYHWGFFH1T8GhgMti8e413LBwAOSxTmoOpMu4PIiQrqNYrYvr35frEI-JsbqchPhKpeCxZ5xo0mPfGfeCP0QkNhr75u_6JL8W4K65Iv8DI-e94VcLdAiNgcOXUDP18SzI1IXZJ-ggq1pOMsOF45RttQbqt-HAwQhc_kEr2f4pxcXHhDlDSYo-lsCM77YRGHnQ9f0ecyxX0-8j8H7qNLGbuu7JhVny7w.1-raYyHO8nz58uWY2vq7_A";
+        var bookId = "";
+        var hostCsrfToken = "";
+        var secureSessionToken = "";
 
         const chapterButtonSelector = '.reader-page-container>div>div>div>div>div button';
         const pageNumberSelector = '.reader-page-footer>div>div>span';
